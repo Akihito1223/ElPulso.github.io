@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es-DO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Pulso</title>
+<meta name="description" content="Noticias de República Dominicana y el mundo, resumidas y actualizadas automáticamente.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #F2F5F3;
+  --ink: #16343A;
+  --muted: #5B7076;
+  --line: #D3DDD9;
+  --accent: #0B7A75;
+  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --text: "Source Serif 4", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #0F1F23; --ink: #E6EEEA; --muted: #93A8AD; --line: #28424A; }
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 64px; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--text); font-size: 1.0625rem; line-height: 1.6;
+}
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+/* Cabecera */
+.masthead { padding: 28px 0 14px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+.brand { font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 6vw, 3.1rem); letter-spacing: -0.03em; line-height: 1; margin: 0; }
+.status { font-family: var(--display); font-size: 0.9rem; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+.status .date::first-letter { text-transform: uppercase; }
+.status { column-gap: 14px; flex-wrap: wrap; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); flex: none; }
+@media (prefers-reduced-motion: no-preference) {
+  .dot { animation: pulso 2.4s ease-in-out infinite; }
+  @keyframes pulso { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+}
+
+/* Pestañas */
+.tabbar { position: sticky; top: 0; z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); }
+.tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-top: 4px; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab {
+  font-family: var(--display); font-weight: 700; font-size: 0.98rem;
+  background: none; border: 0; border-bottom: 4px solid transparent;
+  color: var(--muted); padding: 12px 14px 10px; cursor: pointer; white-space: nowrap;
+  display: flex; align-items: center; gap: 8px;
+}
+.tab i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--c); }
+
+/* Portada de la sección */
+main { padding: 32px 0 56px; min-height: 60vh; }
+.lead { padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--line); }
+.lead h2 { max-width: 20em; font-family: var(--display); font-weight: 800; font-size: clamp(1.9rem, 5.2vw, 3.1rem); line-height: 1.08; letter-spacing: -0.025em; margin: 12px 0 16px; border-left: 8px solid var(--accent); padding-left: 16px; }
+.lead p { font-size: 1.2rem; margin: 0 0 14px; max-width: 62ch; }
+
+.meta { font-family: var(--display); font-size: 0.85rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.meta .src { font-weight: 700; color: var(--accent); }
+@media (prefers-color-scheme: dark) { .meta .src { filter: brightness(1.5); } }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 28px 40px; }
+@media (min-width: 760px) { .grid { grid-template-columns: 1fr 1fr; } }
+.story h3 { font-family: var(--display); font-weight: 700; font-size: 1.28rem; line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 8px; }
+.story p { margin: 0 0 10px; color: var(--ink); max-width: 62ch; }
+.story h3 a, .lead h2 a { text-decoration: none; }
+.story h3 a:hover, .lead h2 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.read { font-family: var(--display); font-weight: 700; font-size: 0.88rem; color: var(--accent); }
+@media (prefers-color-scheme: dark) { .read { filter: brightness(1.5); } }
+
+.notice { font-family: var(--display); background: color-mix(in srgb, var(--accent) 12%, var(--paper)); border-left: 4px solid var(--accent); padding: 12px 16px; margin: 0 0 28px; font-size: 0.95rem; }
+.empty { font-family: var(--display); color: var(--muted); padding: 40px 0; }
+
+footer { border-top: 1px solid var(--line); padding: 24px 0 48px; font-family: var(--display); font-size: 0.85rem; color: var(--muted); }
+footer p { margin: 0 0 8px; max-width: 70ch; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <h1 class="brand">El Pulso</h1>
+    <div class="status"><span class="dot" aria-hidden="true"></span><span class="date" id="fecha"></span><span id="actualizado"></span></div>
+  </header>
+</div>
+
+<nav class="tabbar" aria-label="Secciones">
+  <div class="wrap"><div class="tabs" role="tablist" id="tabs"></div></div>
+</nav>
+
+<div class="wrap">
+  <main id="contenido" role="tabpanel" tabindex="-1" aria-live="polite"></main>
+  <footer>
+    <p>Los titulares y resúmenes los redacta una IA a partir de notas publicadas por otros medios. Pueden tener errores: para el detalle completo, abre la nota original.</p>
+    <p id="fuentes"></p>
+  </footer>
+</div>
+
+<script>
+const COLORES = {
+  mercados: "#B7791F", nacionales: "#0B7A75", internacionales: "#2F5D9E",
+  tecnologia: "#7A4FB5", politica: "#C2412D", ambiente: "#3C8D40"
+};
+const REFRESCO_MS = 10 * 60 * 1000;
+let datos = null;
+let activa = null;
+
+const $ = (id) => document.getElementById(id);
+const el = (tag, attrs = {}, ...hijos) => {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "text") n.textContent = v; else n.setAttribute(k, v);
+  }
+  hijos.forEach((h) => h && n.append(h));
+  return n;
+};
+const urlSegura = (u) => /^https?:\/\//i.test(u) ? u : "#";
+
+function haceCuanto(iso) {
+  const min = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  if (min < 1) return "hace un momento";
+  if (min < 60) return `hace ${min} min`;
+  const h = Math.round(min / 60);
+  if (h < 24) return `hace ${h} ${h === 1 ? "hora" : "horas"}`;
+  const d = Math.round(h / 24);
+  return `hace ${d} ${d === 1 ? "día" : "días"}`;
+}
+
+function meta(item) {
+  return el("div", { class: "meta" },
+    el("span", { class: "src", text: item.source }),
+    el("time", { datetime: item.published, text: haceCuanto(item.published) }));
+}
+
+function leerMas(item) {
+  const a = el("a", { class: "read", href: urlSegura(item.url), target: "_blank", rel: "noopener noreferrer", text: `Leer la nota en ${item.source}` });
+  return a;
+}
+
+function pintarTabs() {
+  const cont = $("tabs");
+  cont.replaceChildren();
+  datos.sections.forEach((s) => {
+    const b = el("button", { class: "tab", role: "tab", id: `tab-${s.id}`, "aria-selected": String(s.id === activa), "aria-controls": "contenido", type: "button" },
+      el("i"), el("span", { text: s.name }));
+    b.style.setProperty("--c", COLORES[s.id] || "#0B7A75");
+    b.addEventListener("click", () => { location.hash = s.id; });
+    cont.append(b);
+  });
+}
+
+function pintarSeccion() {
+  const sec = datos.sections.find((s) => s.id === activa) || datos.sections[0];
+  activa = sec.id;
+  document.documentElement.style.setProperty("--accent", COLORES[sec.id] || "#0B7A75");
+  $("contenido").setAttribute("aria-labelledby", `tab-${sec.id}`);
+  pintarTabs();
+
+  const cont = $("contenido");
+  cont.replaceChildren();
+  if (datos.demo) {
+    cont.append(el("p", { class: "notice", text: "Estás viendo datos de ejemplo. Cuando corras el script de actualización, aquí aparecerán las noticias reales." }));
+  }
+  if (!sec.items.length) {
+    cont.append(el("p", { class: "empty", text: "Todavía no hay notas en esta sección. Se llenará en la próxima actualización." }));
+    return;
+  }
+  const [primera, ...resto] = sec.items;
+  const lead = el("article", { class: "lead" },
+    meta(primera),
+    el("h2", {}, el("a", { href: urlSegura(primera.url), target: "_blank", rel: "noopener noreferrer", text: primera.title })),
+    primera.summary ? el("p", { text: primera.summary }) : null,
+    leerMas(primera));
+  cont.append(lead);
+
+  const grid = el("div", { class: "grid" });
+  resto.forEach((it) => {
+    grid.append(el("article", { class: "story" },
+      el("h3", {}, el("a", { href: urlSegura(it.url), target: "_blank", rel: "noopener noreferrer", text: it.title })),
+      it.summary ? el("p", { text: it.summary }) : null,
+      meta(it)));
+  });
+  cont.append(grid);
+}
+
+function pintarCabecera() {
+  $("fecha").textContent = new Date().toLocaleDateString("es-DO", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  $("actualizado").textContent = datos.updated ? `Actualizado ${haceCuanto(datos.updated)}` : "";
+  const medios = new Set(datos.sections.flatMap((s) => s.items.map((i) => i.source)));
+  $("fuentes").textContent = medios.size ? `Medios consultados: ${[...medios].sort().join(", ")}.` : "";
+}
+
+function desdeHash() {
+  const id = location.hash.slice(1);
+  if (datos.sections.some((s) => s.id === id)) activa = id;
+  else if (!activa) activa = datos.sections[0].id;
+  pintarSeccion();
+}
+
+async function cargar(primeraVez) {
+  try {
+    const r = await fetch(`data/news.json?t=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    datos = await r.json();
+    pintarCabecera();
+    if (primeraVez) desdeHash(); else pintarSeccion();
+  } catch (e) {
+    if (primeraVez) {
+      $("contenido").replaceChildren(el("p", { class: "empty", text: "No se pudieron cargar las noticias. Revisa que exista data/news.json y abre la página desde un servidor, no directo desde el archivo." }));
+    }
+  }
+}
+
+window.addEventListener("hashchange", () => datos && desdeHash());
+cargar(true);
+setInterval(() => cargar(false), REFRESCO_MS);
+</script>
+</body>
+</html>

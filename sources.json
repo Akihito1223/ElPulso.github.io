@@ -1,0 +1,58 @@
+{
+  "sections": [
+    {
+      "id": "mercados",
+      "name": "Mercados y finanzas",
+      "feeds": [
+        { "name": "El Dinero", "url": "https://eldinero.com.do/feed/" },
+        { "name": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/temas/economia/rss.xml" },
+        { "name": "Expansión", "url": "https://e00-expansion.uecdn.es/rss/mercados.xml" }
+      ]
+    },
+    {
+      "id": "nacionales",
+      "name": "República Dominicana",
+      "feeds": [
+        { "name": "Diario Libre", "url": "https://www.diariolibre.com/rss/portada.xml" },
+        { "name": "Listín Diario", "url": "https://listindiario.com/rss/portada" },
+        { "name": "El Día", "url": "https://eldia.com.do/feed/" }
+      ]
+    },
+    {
+      "id": "internacionales",
+      "name": "Internacional",
+      "feeds": [
+        { "name": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/rss.xml" },
+        { "name": "DW Español", "url": "https://rss.dw.com/xml/rss-sp-all" },
+        { "name": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada" }
+      ]
+    },
+    {
+      "id": "tecnologia",
+      "name": "Tecnología",
+      "feeds": [
+        { "name": "Xataka", "url": "https://www.xataka.com/feedburner.xml" },
+        { "name": "Genbeta", "url": "https://www.genbeta.com/feedburner.xml" },
+        { "name": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/temas/tecnologia/rss.xml" }
+      ]
+    },
+    {
+      "id": "politica",
+      "name": "Política",
+      "feeds": [
+        { "name": "Diario Libre", "url": "https://www.diariolibre.com/rss/politica.xml" },
+        { "name": "DW Español", "url": "https://rss.dw.com/xml/rss-sp-politica" },
+        { "name": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada" }
+      ]
+    },
+    {
+      "id": "ambiente",
+      "name": "Medio ambiente",
+      "feeds": [
+        { "name": "Mongabay Latam", "url": "https://es.mongabay.com/feed/" },
+        { "name": "Noticias ONU", "url": "https://news.un.org/feed/subscribe/es/news/topic/climate-and-environment/feed/rss.xml" },
+        { "name": "DW Español", "url": "https://rss.dw.com/xml/rss-sp-ambiente" }
+      ]
+    }
+  ]
+}

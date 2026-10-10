@@ -1,0 +1,312 @@
+{
+  "updated": "2026-10-10T14:42:56.169450+00:00",
+  "demo": true,
+  "sections": [
+    {
+      "id": "mercados",
+      "name": "Mercados y finanzas",
+      "items": [
+        {
+          "id": "demo-mercados-0",
+          "section": "mercados",
+          "title": "Titular de ejemplo 1 de Mercados y finanzas",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "El Dinero",
+          "url": "https://example.com",
+          "published": "2026-10-10T14:17:56.169450+00:00"
+        },
+        {
+          "id": "demo-mercados-1",
+          "section": "mercados",
+          "title": "Titular de ejemplo 2 de Mercados y finanzas",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "BBC Mundo",
+          "url": "https://example.com",
+          "published": "2026-10-10T13:07:56.169450+00:00"
+        },
+        {
+          "id": "demo-mercados-2",
+          "section": "mercados",
+          "title": "Titular de ejemplo 3 de Mercados y finanzas",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Expansión",
+          "url": "https://example.com",
+          "published": "2026-10-10T11:57:56.169450+00:00"
+        },
+        {
+          "id": "demo-mercados-3",
+          "section": "mercados",
+          "title": "Titular de ejemplo 4 de Mercados y finanzas",
+          "summary": "",
+          "source": "El Dinero",
+          "url": "https://example.com",
+          "published": "2026-10-10T10:47:56.169450+00:00"
+        },
+        {
+          "id": "demo-mercados-4",
+          "section": "mercados",
+          "title": "Titular de ejemplo 5 de Mercados y finanzas",
+          "summary": "",
+          "source": "BBC Mundo",
+          "url": "https://example.com",
+          "published": "2026-10-10T09:37:56.169450+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nacionales",
+      "name": "República Dominicana",
+      "items": [
+        {
+          "id": "demo-nacionales-0",
+          "section": "nacionales",
+          "title": "Titular de ejemplo 1 de República Dominicana",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Diario Libre",
+          "url": "https://example.com",
+          "published": "2026-10-10T14:17:56.169450+00:00"
+        },
+        {
+          "id": "demo-nacionales-1",
+          "section": "nacionales",
+          "title": "Titular de ejemplo 2 de República Dominicana",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Listín Diario",
+          "url": "https://example.com",
+          "published": "2026-10-10T13:07:56.169450+00:00"
+        },
+        {
+          "id": "demo-nacionales-2",
+          "section": "nacionales",
+          "title": "Titular de ejemplo 3 de República Dominicana",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "El Día",
+          "url": "https://example.com",
+          "published": "2026-10-10T11:57:56.169450+00:00"
+        },
+        {
+          "id": "demo-nacionales-3",
+          "section": "nacionales",
+          "title": "Titular de ejemplo 4 de República Dominicana",
+          "summary": "",
+          "source": "Diario Libre",
+          "url": "https://example.com",
+          "published": "2026-10-10T10:47:56.169450+00:00"
+        },
+        {
+          "id": "demo-nacionales-4",
+          "section": "nacionales",
+          "title": "Titular de ejemplo 5 de República Dominicana",
+          "summary": "",
+          "source": "Listín Diario",
+          "url": "https://example.com",
+          "published": "2026-10-10T09:37:56.169450+00:00"
+        }
+      ]
+    },
+    {
+      "id": "internacionales",
+      "name": "Internacional",
+      "items": [
+        {
+          "id": "demo-internacionales-0",
+          "section": "internacionales",
+          "title": "Titular de ejemplo 1 de Internacional",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "BBC Mundo",
+          "url": "https://example.com",
+          "published": "2026-10-10T14:17:56.169450+00:00"
+        },
+        {
+          "id": "demo-internacionales-1",
+          "section": "internacionales",
+          "title": "Titular de ejemplo 2 de Internacional",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "DW Español",
+          "url": "https://example.com",
+          "published": "2026-10-10T13:07:56.169450+00:00"
+        },
+        {
+          "id": "demo-internacionales-2",
+          "section": "internacionales",
+          "title": "Titular de ejemplo 3 de Internacional",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "El País",
+          "url": "https://example.com",
+          "published": "2026-10-10T11:57:56.169450+00:00"
+        },
+        {
+          "id": "demo-internacionales-3",
+          "section": "internacionales",
+          "title": "Titular de ejemplo 4 de Internacional",
+          "summary": "",
+          "source": "BBC Mundo",
+          "url": "https://example.com",
+          "published": "2026-10-10T10:47:56.169450+00:00"
+        },
+        {
+          "id": "demo-internacionales-4",
+          "section": "internacionales",
+          "title": "Titular de ejemplo 5 de Internacional",
+          "summary": "",
+          "source": "DW Español",
+          "url": "https://example.com",
+          "published": "2026-10-10T09:37:56.169450+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tecnologia",
+      "name": "Tecnología",
+      "items": [
+        {
+          "id": "demo-tecnologia-0",
+          "section": "tecnologia",
+          "title": "Titular de ejemplo 1 de Tecnología",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Xataka",
+          "url": "https://example.com",
+          "published": "2026-10-10T14:17:56.169450+00:00"
+        },
+        {
+          "id": "demo-tecnologia-1",
+          "section": "tecnologia",
+          "title": "Titular de ejemplo 2 de Tecnología",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Genbeta",
+          "url": "https://example.com",
+          "published": "2026-10-10T13:07:56.169450+00:00"
+        },
+        {
+          "id": "demo-tecnologia-2",
+          "section": "tecnologia",
+          "title": "Titular de ejemplo 3 de Tecnología",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "BBC Mundo",
+          "url": "https://example.com",
+          "published": "2026-10-10T11:57:56.169450+00:00"
+        },
+        {
+          "id": "demo-tecnologia-3",
+          "section": "tecnologia",
+          "title": "Titular de ejemplo 4 de Tecnología",
+          "summary": "",
+          "source": "Xataka",
+          "url": "https://example.com",
+          "published": "2026-10-10T10:47:56.169450+00:00"
+        },
+        {
+          "id": "demo-tecnologia-4",
+          "section": "tecnologia",
+          "title": "Titular de ejemplo 5 de Tecnología",
+          "summary": "",
+          "source": "Genbeta",
+          "url": "https://example.com",
+          "published": "2026-10-10T09:37:56.169450+00:00"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "name": "Política",
+      "items": [
+        {
+          "id": "demo-politica-0",
+          "section": "politica",
+          "title": "Titular de ejemplo 1 de Política",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Diario Libre",
+          "url": "https://example.com",
+          "published": "2026-10-10T14:17:56.169450+00:00"
+        },
+        {
+          "id": "demo-politica-1",
+          "section": "politica",
+          "title": "Titular de ejemplo 2 de Política",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "DW Español",
+          "url": "https://example.com",
+          "published": "2026-10-10T13:07:56.169450+00:00"
+        },
+        {
+          "id": "demo-politica-2",
+          "section": "politica",
+          "title": "Titular de ejemplo 3 de Política",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "El País",
+          "url": "https://example.com",
+          "published": "2026-10-10T11:57:56.169450+00:00"
+        },
+        {
+          "id": "demo-politica-3",
+          "section": "politica",
+          "title": "Titular de ejemplo 4 de Política",
+          "summary": "",
+          "source": "Diario Libre",
+          "url": "https://example.com",
+          "published": "2026-10-10T10:47:56.169450+00:00"
+        },
+        {
+          "id": "demo-politica-4",
+          "section": "politica",
+          "title": "Titular de ejemplo 5 de Política",
+          "summary": "",
+          "source": "DW Español",
+          "url": "https://example.com",
+          "published": "2026-10-10T09:37:56.169450+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ambiente",
+      "name": "Medio ambiente",
+      "items": [
+        {
+          "id": "demo-ambiente-0",
+          "section": "ambiente",
+          "title": "Titular de ejemplo 1 de Medio ambiente",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Mongabay Latam",
+          "url": "https://example.com",
+          "published": "2026-10-10T14:17:56.169450+00:00"
+        },
+        {
+          "id": "demo-ambiente-1",
+          "section": "ambiente",
+          "title": "Titular de ejemplo 2 de Medio ambiente",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "Noticias ONU",
+          "url": "https://example.com",
+          "published": "2026-10-10T13:07:56.169450+00:00"
+        },
+        {
+          "id": "demo-ambiente-2",
+          "section": "ambiente",
+          "title": "Titular de ejemplo 3 de Medio ambiente",
+          "summary": "Este es un texto de relleno para ver cómo se ve la página. Las noticias reales aparecen cuando corres el script de actualización.",
+          "source": "DW Español",
+          "url": "https://example.com",
+          "published": "2026-10-10T11:57:56.169450+00:00"
+        },
+        {
+          "id": "demo-ambiente-3",
+          "section": "ambiente",
+          "title": "Titular de ejemplo 4 de Medio ambiente",
+          "summary": "",
+          "source": "Mongabay Latam",
+          "url": "https://example.com",
+          "published": "2026-10-10T10:47:56.169450+00:00"
+        },
+        {
+          "id": "demo-ambiente-4",
+          "section": "ambiente",
+          "title": "Titular de ejemplo 5 de Medio ambiente",
+          "summary": "",
+          "source": "Noticias ONU",
+          "url": "https://example.com",
+          "published": "2026-10-10T09:37:56.169450+00:00"
+        }
+      ]
+    }
+  ]
+}
